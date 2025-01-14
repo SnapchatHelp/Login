@@ -1,0 +1,1077 @@
+<body class="designV2">
+    <div id="common-attributes" data-is-dev="false" data-is-gdpr="false"></div>
+    <!-- Pusher is Needed for Top Navigation Menu -->
+    <div class="pusher">
+        <div id="account-identifier-root" data-xsrf="3BcWyz3xRWIIFOfzGRNjFA" data-continue="/accounts/welcome"
+            data-is-arkose-lightbox="true" data-enable-attestation="true">
+            <div class="App ">
+                <div class="full-background-color"></div>
+                <div class="Header"><a href="/" class="logo"><img src=""
+                            alt="Snapchat"></a></div>
+                <div class="AccountIdentifier">
+                    <article class="page">
+                        <div class="container">
+                            <div class="snapchat-logo"><img src="snapchat-asdspp-icon.svg"
+                                    alt="Snapchat Ghost Icon"></div>
+                            <div class="login-challenge-frame">
+                                <h1 class="login-challenge-title">Log in to Snapchat</h1>
+                            </div>
+                            <div class="description error" id="error_message">
+                                <p>The input field below cannot be empty.</p>
+                            </div>
+                            <div>
+                                <form id="account_identifier_form" action="/accounts/v2/login" method="post"
+                                    class="centered_form">
+                                    <div class="form-group"><label for="accountIdentifier"
+                                            class="control-label">Username or email address</label><input
+                                            name="accountIdentifier" autocomplete="username" type="text"
+                                            id="accountIdentifier" class="form-control" value="">
+                                        <div class="additional-action"><a>Use phone number instead</a></div>
+                                    </div><input type="hidden" name="xsrf_token" value="3BcWyz3xRWIIFOfzGRNjFA"><input
+                                        type="hidden" name="continue" value="/accounts/welcome"><input type="hidden"
+                                        name="arkose-token" value=""><input type="hidden" name="attestation">
+                                    <div id="arkose-wrapper" class="displayArkose">
+                                        <div class="arkose-iframe-container" id="arkose-iframe-wrapper"><iframe
+                                                class="arkose-iframe-lightbox" id="arkose-iframe"
+                                                src="https://iframe.arkoselabs.com/07EAB4B8-2D80-4234-B897-A2CD1F194866/lightbox.html?mkt=en-GB"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="primary_action login-button"><button type="submit"
+                                            class="btn btn-lg btn-default">Next</button></div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="create-account-cta" dir="ltr"><span>New to Snapchat?</span><a
+                                href="/accounts/signup">Sign up</a></div>
+                    </article>
+                    <div class="footer">
+                        <div style="background-color: rgb(248, 249, 251); font-size: 14px; line-height: 17px;">
+                            <style>
+                                .footer-container,
+                                .footer-bottom-bar {
+                                    width: 92.3%;
+                                    max-width: 1070px;
+                                    margin: auto;
+                                }
+
+                                .footer-container {
+                                    box-sizing: content-box;
+                                    position: relative;
+                                    padding: 30px 0 30px;
+                                    min-height: 195px;
+                                }
+
+                                .footer-container .footer-column {
+                                    position: relative;
+                                    box-sizing: border-box;
+                                    float: left;
+                                    width: 25%;
+                                    padding-inline-end: 6.25%;
+                                }
+
+                                [dir="rtl"] .footer-container .footer-column {
+                                    float: right;
+                                }
+
+                                .footer-container .footer-column .footer-column-header {
+                                    box-sizing: content-box;
+                                    color: rgba(0, 0, 0, .87);
+                                    line-height: 23px;
+                                    font-weight: 500;
+                                }
+
+                                .footer-container .footer-column .footer-column-expand-caret {
+                                    display: none;
+                                }
+
+                                .footer-container .footer-column a {
+                                    display: table;
+                                    color: rgba(0, 0, 0, .87);
+                                    text-decoration: none;
+                                    line-height: 17px;
+                                    margin-top: 6px;
+                                }
+
+                                .footer-container .footer-column a:hover {
+                                    color: black;
+                                }
+
+                                .footer-container .langue-selection-block {
+                                    position: absolute;
+                                    box-sizing: border-box;
+                                    padding-block-start: 0;
+                                    padding-block-end: 15px;
+                                    padding-inline-start: 0;
+                                    padding-inline-end: 6.25%;
+                                    bottom: 15px;
+                                    width: 25%;
+                                }
+
+                                .footer-container .langue-selection-block .langue-header {
+                                    color: rgba(0, 0, 0, .87);
+                                    font-weight: 500;
+                                }
+
+                                .footer-bottom-bar a {
+                                    line-height: 56px;
+                                    margin-inline-end: 40px;
+                                    color: white;
+                                    text-decoration: none;
+                                }
+
+                                @media (max-width: 767px) {
+
+                                    .footer-container,
+                                    .footer-bottom-bar {
+                                        width: 100%;
+                                        padding: 0;
+                                        max-width: none;
+                                    }
+
+                                    .footer-container .footer-column {
+                                        padding: 0;
+                                        width: 100%;
+                                    }
+
+                                    .footer-container .footer-column a,
+                                    .footer-container .footer-column .footer-column-header {
+                                        margin-top: 0;
+                                        padding: 10px 40px;
+                                        width: calc(100% - 80px);
+                                        line-height: 25px;
+                                    }
+
+                                    .footer-container .footer-column .footer-column-header,
+                                    .footer-container .langue-selection-block {
+                                        border-top: solid 1px #D4D4D4;
+                                    }
+
+                                    .footer-container .footer-column .footer-column-header {
+                                        cursor: pointer;
+                                        background-color: #F8F9FB;
+                                    }
+
+                                    .footer-container .footer-column .footer-column-expand-caret {
+                                        display: block;
+                                        position: absolute;
+                                        inset-inline-start: 16px;
+                                        top: 15px;
+                                        width: 15px;
+                                        height: 20px;
+                                        transform-origin: 55% 45%;
+                                        cursor: pointer;
+                                    }
+
+                                    .footer-container .footer-column.expanded .footer-column-expand-caret {
+                                        transform: rotate(90deg);
+                                        -webkit-transform: rotate(90deg);
+                                    }
+
+                                    .footer-container .footer-column a {
+                                        font-weight: 600;
+                                        color: rgba(0, 0, 0, .87);
+                                        border-top: solid 1px #E5E5E5;
+                                        display: none;
+                                    }
+
+                                    .footer-container .footer-column.expanded a {
+                                        display: block;
+                                        box-sizing: content-box;
+                                    }
+
+                                    .footer-container .langue-selection-block {
+                                        position: static;
+                                        width: 100%;
+                                        height: inherit;
+                                        top: inherit;
+                                        padding: 14px 20px 15px;
+                                    }
+
+                                    .footer-bottom-bar a {
+                                        display: block;
+                                        line-height: 45px;
+                                        margin-right: 0;
+                                        padding-inline-start: 20px;
+                                        border-bottom: solid 1px #D4D4D4;
+                                    }
+                                }
+                            </style>
+                            <div class="footer-container" id="footerContainer">
+                                <div class="footer-column">
+                                    <div class="footer-column-expand-caret"><svg width="15" height="20"
+                                            fill="rgba(0,0,0,.87)">
+                                            <g>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(45 0,0)" rx="1" id="1"
+                                                    height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(-45 0,0)" rx="1" id="2"
+                                                    height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+                                            </g>
+                                        </svg></div>
+                                    <div class="footer-column-header">Company</div>
+                                    <div><a href="https://snap.com/en-GB">Snap Inc.</a><a
+                                            href="https://careers.snap.com">Careers</a><a
+                                            href="https://newsroom.snap.com">News</a></div>
+                                </div>
+                                <div class="footer-column">
+                                    <div class="footer-column-expand-caret"><svg width="15" height="20"
+                                            fill="rgba(0,0,0,.87)">
+                                            <g>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(45 0,0)" rx="1" id="1"
+                                                    height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(-45 0,0)" rx="1" id="2"
+                                                    height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+                                            </g>
+                                        </svg></div>
+                                    <div class="footer-column-header">Community</div>
+                                    <div><a
+                                            href="https://help.snapchat.com/hc/?utm_source=web&amp;utm_medium=snap&amp;utm_campaign=ap">Support</a><a
+                                            href="https://snap.com/en-GB/community-guidelines">Community
+                                            Guidelines</a><a href="https://snap.com/en-GB/safety/safety-center">Safety
+                                            Centre</a></div>
+                                </div>
+                                <div class="footer-column">
+                                    <div class="footer-column-expand-caret"><svg width="15" height="20"
+                                            fill="rgba(0,0,0,.87)">
+                                            <g>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(45 0,0)" rx="1" id="1"
+                                                    height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(-45 0,0)" rx="1" id="2"
+                                                    height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+                                            </g>
+                                        </svg></div>
+                                    <div class="footer-column-header">Advertising</div>
+                                    <div><a
+                                            href="https://forbusiness.snapchat.com/?utm_source=accounts_snapchat_com&amp;utm_medium=referral&amp;utm_campaign=internal_referral&amp;utm_content=footer_link">Buy
+                                            Adverts</a><a href="https://snap.com/en-GB/ad-policies/">Advertising
+                                            Policies</a><a href="https://snap.com/en-GB/political-ads/">Political Ads
+                                            Library</a><a href="https://snap.com/en-GB/brand-guidelines/">Brand
+                                            Guidelines</a><a
+                                            href="https://help.snapchat.com/hc/articles/7047502545044?utm_source=web&amp;utm_medium=snap&amp;utm_campaign=ap">Promotions
+                                            Rules</a></div>
+                                </div>
+                                <div class="footer-column">
+                                    <div class="footer-column-expand-caret"><svg width="15" height="20"
+                                            fill="rgba(0,0,0,.87)">
+                                            <g>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(45 0,0)" rx="1" id="1"
+                                                    height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+                                                <rect stroke="rgba(0,0,0,.87)" transform="rotate(-45 0,0)" rx="1" id="2"
+                                                    height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+                                            </g>
+                                        </svg></div>
+                                    <div class="footer-column-header">Legal</div>
+                                    <div><a href="https://snap.com/en-GB/privacy/privacy-center/">Privacy Centre</a><a
+                                            href="https://help.snapchat.com/hc/articles/11399265637012?utm_source=snapchat_com&amp;utm_medium=global_footer&amp;utm_campaign=privacy_choices">Your
+                                            Privacy Choices</a><a href="https://snap.com/en-GB/cookie-policy/">Cookie
+                                            Policy</a><a
+                                            href="https://help.snapchat.com/hc/articles/7012332110996?utm_source=web&amp;utm_medium=snap&amp;utm_campaign=ap">Report
+                                            Infringement</a><a
+                                            href="https://snap.com/en-GB/terms/custom-creative-tools/">Custom Creative
+                                            Tools Terms</a><a href="https://snapchat.com/create/terms.html">Community
+                                            Geofilter Terms</a><a
+                                            href="https://snap.com/en-GB/terms/lens-studio-license-agreement">Lens
+                                            Studio Terms</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                                <div class="langue-selection-block">
+                                    <div class="langue-header">Language</div>
+                                    <div style="position: relative;"><select id="sc-global-locale-selector"
+                                            style="appearance: none; border: 1px solid rgb(204, 204, 204); border-radius: 5px; background: white; width: 100%; margin-top: 10px; padding: 5px 10px; font-size: 14px; font-family: inherit; color: rgba(0, 0, 0, 0.6); height: 34px; cursor: pointer;">
+                                            <option value="ar">العَرَبِية</option>
+                                            <option value="bn-BD">বাংলা(বাংলাদেশ)</option>
+                                            <option value="bn-IN">বাংলা (ভারত)</option>
+                                            <option value="da-DK">Dansk</option>
+                                            <option value="de-DE">Deutsch</option>
+                                            <option value="el-GR">Ελληνικά</option>
+                                            <option value="en-GB">English (UK)</option>
+                                            <option value="en-US">English (US)</option>
+                                            <option value="es">Español</option>
+                                            <option value="es-AR">Español (Argentine)</option>
+                                            <option value="es-ES">Español (España)</option>
+                                            <option value="es-MX">Español (México)</option>
+                                            <option value="fi-FI">Suomi</option>
+                                            <option value="fil-PH">Filipino</option>
+                                            <option value="fr-FR">Français</option>
+                                            <option value="gu-IN">ગુજરાતી</option>
+                                            <option value="hi-IN">हिंदी</option>
+                                            <option value="id-ID">Bahasa Indonesia</option>
+                                            <option value="it-IT">Italiano</option>
+                                            <option value="ja-JP">日本語</option>
+                                            <option value="kn-IN">ಕನ್ನಡ (India)</option>
+                                            <option value="ko-KR">한국어</option>
+                                            <option value="ml-IN">മലയാളം</option>
+                                            <option value="mr-IN">मराठी</option>
+                                            <option value="ms-MY">Bahasa Melayu</option>
+                                            <option value="nb-NO">Norsk</option>
+                                            <option value="nl-NL">Nederlands</option>
+                                            <option value="pa">ਪੰਜਾਬੀ</option>
+                                            <option value="pl-PL">Polski</option>
+                                            <option value="pt-BR">Português (Brasil)</option>
+                                            <option value="pt-PT">Português (Portugal)</option>
+                                            <option value="ro-RO">Română</option>
+                                            <option value="ru-RU">Русский</option>
+                                            <option value="sv-SE">Svenska</option>
+                                            <option value="ta-IN">தமிழ்</option>
+                                            <option value="te-IN">తెలుగు</option>
+                                            <option value="th-TH">ภาษาไทย (ประเทศไทย)</option>
+                                            <option value="tr-TR">Türkçe</option>
+                                            <option value="ur-PK">اردو</option>
+                                            <option value="vi-VN">Tiếng Việt</option>
+                                            <option value="zh-Hans">中文（简体）</option>
+                                            <option value="zh-Hant">中文（繁體）</option>
+                                        </select>
+                                        <div
+                                            style="position: absolute; inset-inline-end: 10px; width: 0px; height: 0px; pointer-events: none; border-style: solid; bottom: 18px; border-width: 0px 3px 5px; border-color: transparent transparent rgb(102, 102, 102);">
+                                        </div>
+                                        <div
+                                            style="position: absolute; inset-inline-end: 10px; width: 0px; height: 0px; pointer-events: none; border-style: solid; bottom: 10px; border-width: 5px 3px 0px; border-color: rgb(102, 102, 102) transparent transparent;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background-color: rgb(38, 38, 38);">
+                                <div class="footer-bottom-bar"><a
+                                        href="https://snap.com/en-GB/privacy/privacy-policy/">Privacy Policy</a><a
+                                        href="https://snap.com/en-GB/terms/">Terms of Service</a>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cookie-pop-up">
+                    <div class="theme--snapchat">
+                        <style id="theme-vars-snapchat">
+                            .theme--snapchat>body,
+                            body.theme--snapchat {
+                                font-family: 'Graphik', Helvetica, sans-serif;
+                            }
+
+                            html[lang='vi'].theme--snapchat>body,
+                            html[lang='vi']>body.theme--snapchat {
+                                font-family: Helvetica, sans-serif;
+                            }
+
+                            html[lang='ar'] .theme--snapchat {
+                                font-family: 'Graphik Arabic', Helvetica, sans-serif;
+                            }
+
+                            .theme--snapchat .background--black,
+                            .theme--snapchat.background--black {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #FFFC00;
+                                --button-primary-color: #000000;
+                                --button-secondary-bg: #FFFFFF;
+                                --button-secondary-color: #000000;
+                                --button-flat-bg: #000000;
+                                --button-flat-color: #FFFFFF;
+                                --dropdown-bg: #3A3E41;
+                                --dropdown-color: #FFFFFF;
+                                --dropdown-item-color: #F7F8F9;
+                                --dropdown-item-hover-color: #FFFFFF;
+                                --quote-bg: #F0F1F2;
+                                --quote-color: #000000;
+                                --hyperlink-color: #FFFFFF;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #FFFFFF;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFC00;
+                                --mosaic-duration-color: #121314;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #000000;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFFFFF;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFFFFF;
+                                --mosaic-buttons-filters-color: #FFFFFF;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #000000;
+                                --mosaic-lightbox-color: #000000;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #FFFFFF;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #FFFC00;
+                                --chart-toggle-buttons-large-active-color: #000000;
+                                --chart-toggle-buttons-large-active-border: #FFFC00;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #000000;
+                                --chart-toggle-buttons-small-border: #FFFFFF;
+                                --chart-toggle-buttons-small-active-bg: #FFFC00;
+                                --chart-toggle-buttons-small-active-color: #000000;
+                                --chart-toggle-buttons-small-active-border: #FFFC00;
+                                --navigator-bg: #000000;
+                                --navigator-color: #FFFFFF;
+                                --navigator-item-color: #D4D5D6;
+                                --navigator-item-hover-color: #E9EAEB;
+                                --navigator-item-active-color: #E9EAEB;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #FFFFFF;
+                                --content-bg: #000000;
+                                --content-color: #FFFFFF;
+                                --content-subtitle-color: #FFFFFF;
+                                --content-title-color: #FFFFFF;
+                                --block-bg: #000000;
+                                --block-color: #FFFFFF;
+                                --block-subtitle-color: #FFFFFF;
+                                --block-title-color: #FFFFFF;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: #000000;
+                                --hero-color: #FFFFFF;
+                                --global-header-bg: #000000;
+                                --global-header-nav-screen-bg: #000000;
+                                --global-header-color: #E9EAEB;
+                                --global-header-item-color: #E9EAEB;
+                                --global-header-item-hover-color: #FFFFFF;
+                                --global-header-item-active-color: #FFFFFF;
+                                --global-header-button-hover-color: #FFD301;
+                                --icon-color: #FFFFFF;
+                                --toggle-slider-bg: #FFFC00;
+                                --toggle-slider-switch: #FFFFFF;
+                                --toggle-slider-active: #FFFC00;
+                                --toggle-button-active-color: #3A3E41;
+                                --toggle-button-color: #C7C7CC;
+                                --toggle-button-hovor-color: #E9EAEB;
+                                --toggle-button-text-hover-color: #3A3E41;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #000000;
+                                --toggle-panel-color: #53575B;
+                                --footer-color: #FFFFFF;
+                                --footer-bg: #000000;
+                                --footer-bar-bg: #000000;
+                                --footer-bar-divider-border-color: #53575B;
+                                --footer-border-color: #53575B;
+                                --footer-divider-border-color: #53575B;
+                                --accordion-color: #FFFFFF;
+                                --accordion-body-color: #FFFFFF;
+                                --accordion-bg: #000000;
+                                --accordion-divider-border-color: #C7C7CC;
+                                --banner-bg: #000000;
+                                --banner-color: #FFFFFF;
+                                --locale-dropdown-bg: #3A3E41;
+                                --locale-dropdown-color: #FFFFFF;
+                                --locale-dropdown-item-color: #FFFFFF;
+                                --locale-dropdown-item-hover-color: #FFFFFF;
+                            }
+
+                            .theme--snapchat .background--white,
+                            .theme--snapchat.background--white {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #FFFC00;
+                                --button-primary-color: #000000;
+                                --button-secondary-bg: #000000;
+                                --button-secondary-color: #FFFFFF;
+                                --button-flat-bg: #FFFFFF;
+                                --button-flat-color: #000000;
+                                --dropdown-bg: #FFFFFF;
+                                --dropdown-color: #53575B;
+                                --dropdown-item-color: #121314;
+                                --dropdown-item-hover-color: #000000;
+                                --quote-bg: #F0F1F2;
+                                --quote-color: #000000;
+                                --hyperlink-color: #000000;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #53575B;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFFFF;
+                                --mosaic-duration-color: #121314;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #FFFFFF;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFFFFF;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFFFFF;
+                                --mosaic-buttons-filters-color: #000000;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #FFFFFF;
+                                --mosaic-lightbox-color: #FFFFFF;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #53575B;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #FFFC00;
+                                --chart-toggle-buttons-large-active-color: #000000;
+                                --chart-toggle-buttons-large-active-border: #FFFC00;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #53575B;
+                                --chart-toggle-buttons-small-border: #53575B;
+                                --chart-toggle-buttons-small-active-bg: #000000;
+                                --chart-toggle-buttons-small-active-color: #FFFFFF;
+                                --chart-toggle-buttons-small-active-border: #000000;
+                                --navigator-bg: #FFFFFF;
+                                --navigator-color: #000000;
+                                --navigator-item-color: #3A3E41;
+                                --navigator-item-hover-color: #53575B;
+                                --navigator-item-active-color: #53575B;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #000000;
+                                --content-bg: #FFFFFF;
+                                --content-color: #000000;
+                                --content-subtitle-color: #000000;
+                                --content-title-color: #000000;
+                                --block-bg: #FFFFFF;
+                                --block-color: #000000;
+                                --block-subtitle-color: #000000;
+                                --block-title-color: #000000;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: #FFFFFF;
+                                --hero-color: #000000;
+                                --global-header-bg: #FFFFFF;
+                                --global-header-nav-screen-bg: #FFFFFF;
+                                --global-header-color: #121314;
+                                --global-header-item-color: #121314;
+                                --global-header-item-hover-color: #000000;
+                                --global-header-item-active-color: #000000;
+                                --global-header-button-hover-color: #858D94;
+                                --icon-color: #000000;
+                                --toggle-slider-bg: #53575B;
+                                --toggle-slider-switch: #FFFFFF;
+                                --toggle-slider-active: #FFFC00;
+                                --toggle-button-active-color: #000000;
+                                --toggle-button-color: #E9EAEB;
+                                --toggle-button-hovor-color: #C7C7CC;
+                                --toggle-button-text-hover-color: #000000;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #FFFFFF;
+                                --toggle-panel-color: #D4D5D6;
+                                --footer-color: #000000;
+                                --footer-bg: #FFFFFF;
+                                --footer-bar-bg: #F0F1F2;
+                                --footer-bar-divider-border-color: #F0F1F2;
+                                --footer-border-color: #C7C7CC;
+                                --footer-divider-border-color: #C7C7CC;
+                                --accordion-color: #000000;
+                                --accordion-body-color: #000000;
+                                --accordion-bg: #FFFFFF;
+                                --accordion-divider-border-color: #D4D5D6;
+                                --banner-bg: #FFFFFF;
+                                --banner-color: #000000;
+                                --locale-dropdown-bg: #FFFFFF;
+                                --locale-dropdown-color: #000000;
+                                --locale-dropdown-item-color: #000000;
+                                --locale-dropdown-item-hover-color: #000000;
+                            }
+
+                            .theme--snapchat .background--yellow,
+                            .theme--snapchat.background--yellow {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #000000;
+                                --button-primary-color: #FFFFFF;
+                                --button-secondary-bg: #FFFFFF;
+                                --button-secondary-color: #000000;
+                                --button-flat-bg: #FFFC00;
+                                --button-flat-color: #000000;
+                                --dropdown-bg: #FFFC00;
+                                --dropdown-color: #000000;
+                                --dropdown-item-color: #121314;
+                                --dropdown-item-hover-color: #000000;
+                                --quote-bg: #FFFFFF;
+                                --quote-color: #000000;
+                                --hyperlink-color: #000000;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #FFFFFF;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFC00;
+                                --mosaic-duration-color: #121314;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #000000;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFD301;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFD301;
+                                --mosaic-buttons-filters-color: #000000;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #FFFC00;
+                                --mosaic-lightbox-color: #FFFC00;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #53575B;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #000000;
+                                --chart-toggle-buttons-large-active-color: #FFFFFF;
+                                --chart-toggle-buttons-large-active-border: #000000;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #000000;
+                                --chart-toggle-buttons-small-border: #FFFFFF;
+                                --chart-toggle-buttons-small-active-bg: #000000;
+                                --chart-toggle-buttons-small-active-color: #FFFFFF;
+                                --chart-toggle-buttons-small-active-border: #000000;
+                                --navigator-bg: #FFFC00;
+                                --navigator-color: #000000;
+                                --navigator-item-color: #3A3E41;
+                                --navigator-item-hover-color: #000000;
+                                --navigator-item-active-color: #000000;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #000000;
+                                --content-bg: #FFFC00;
+                                --content-color: #000000;
+                                --content-subtitle-color: #000000;
+                                --content-title-color: #000000;
+                                --block-bg: #FFFC00;
+                                --block-color: #000000;
+                                --block-subtitle-color: #000000;
+                                --block-title-color: #000000;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: #FFFC00;
+                                --hero-color: #000000;
+                                --global-header-bg: #FFFFFF;
+                                --global-header-nav-screen-bg: #FFFFFF;
+                                --global-header-color: #121314;
+                                --global-header-item-color: #121314;
+                                --global-header-item-hover-color: #000000;
+                                --global-header-item-active-color: #000000;
+                                --global-header-button-hover-color: #858D94;
+                                --icon-color: #000000;
+                                --toggle-slider-bg: #3A3E41;
+                                --toggle-slider-switch: #FFFFFF;
+                                --toggle-slider-active: #000000;
+                                --toggle-button-active-color: #000000;
+                                --toggle-button-color: #E9EAEB;
+                                --toggle-button-hovor-color: #C7C7CC;
+                                --toggle-button-text-hover-color: #000000;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #FFFC00;
+                                --toggle-panel-color: #D4D5D6;
+                                --footer-color: #000000;
+                                --footer-bg: #FFFC00;
+                                --footer-bar-bg: #FFFC00;
+                                --footer-bar-divider-border-color: #53575B;
+                                --footer-border-color: #53575B;
+                                --footer-divider-border-color: #53575B;
+                                --accordion-color: #000000;
+                                --accordion-body-color: #000000;
+                                --accordion-bg: #FFFC00;
+                                --accordion-divider-border-color: #53575B;
+                                --banner-bg: #FFFC00;
+                                --banner-color: #000000;
+                                --locale-dropdown-bg: #FFFFFF;
+                                --locale-dropdown-color: #000000;
+                                --locale-dropdown-item-color: #000000;
+                                --locale-dropdown-item-hover-color: #000000;
+                            }
+
+                            .theme--snapchat .background--gray,
+                            .theme--snapchat.background--gray {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #FFFC00;
+                                --button-primary-color: #000000;
+                                --button-secondary-bg: #FFFFFF;
+                                --button-secondary-color: #000000;
+                                --button-flat-bg: #F0F1F2;
+                                --button-flat-color: #000000;
+                                --dropdown-bg: #F7F8F9;
+                                --dropdown-color: #000000;
+                                --dropdown-item-color: #F7F8F9;
+                                --dropdown-item-hover-color: #FFFFFF;
+                                --quote-bg: #FFFFFF;
+                                --quote-color: #000000;
+                                --hyperlink-color: #000000;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #FFFFFF;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFC00;
+                                --mosaic-duration-color: #121314;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #FFFFFF;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFFFFF;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFFFFF;
+                                --mosaic-buttons-filters-color: #000000;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #D4D5D6;
+                                --mosaic-lightbox-color: #D4D5D6;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #53575B;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #000000;
+                                --chart-toggle-buttons-large-active-color: #FFFFFF;
+                                --chart-toggle-buttons-large-active-border: #000000;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #000000;
+                                --chart-toggle-buttons-small-border: #FFFFFF;
+                                --chart-toggle-buttons-small-active-bg: #000000;
+                                --chart-toggle-buttons-small-active-color: #FFFFFF;
+                                --chart-toggle-buttons-small-active-border: #000000;
+                                --navigator-bg: #F0F1F2;
+                                --navigator-color: #F7F8F9;
+                                --navigator-item-color: #121314;
+                                --navigator-item-hover-color: #000000;
+                                --navigator-item-active-color: #000000;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #000000;
+                                --content-bg: #F0F1F2;
+                                --content-color: #000000;
+                                --content-subtitle-color: #000000;
+                                --content-title-color: #000000;
+                                --block-bg: #F0F1F2;
+                                --block-color: #000000;
+                                --block-subtitle-color: #000000;
+                                --block-title-color: #000000;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: #F0F1F2;
+                                --hero-color: #000000;
+                                --global-header-bg: #F7F8F9;
+                                --global-header-nav-screen-bg: #F7F8F9;
+                                --global-header-color: #121314;
+                                --global-header-item-color: #121314;
+                                --global-header-item-hover-color: #000000;
+                                --global-header-item-active-color: #000000;
+                                --global-header-button-hover-color: #FFD301;
+                                --icon-color: #000000;
+                                --toggle-slider-bg: #D4D5D6;
+                                --toggle-slider-switch: #FFFFFF;
+                                --toggle-slider-active: #FFFC00;
+                                --toggle-button-active-color: #000000;
+                                --toggle-button-color: #FFFFFF;
+                                --toggle-button-hovor-color: #C7C7CC;
+                                --toggle-button-text-hover-color: #000000;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #D4D5D6;
+                                --toggle-panel-color: #FFFC00;
+                                --footer-color: #000000;
+                                --footer-bg: #F0F1F2;
+                                --footer-bar-bg: #F0F1F2;
+                                --footer-bar-divider-border-color: #C7C7CC;
+                                --footer-border-color: #C7C7CC;
+                                --footer-divider-border-color: #C7C7CC;
+                                --accordion-color: #000000;
+                                --accordion-body-color: #000000;
+                                --accordion-bg: #F0F1F2;
+                                --accordion-divider-border-color: #C7C7CC;
+                                --banner-bg: #F0F1F2;
+                                --banner-color: #000000;
+                                --locale-dropdown-bg: #FFFFFF;
+                                --locale-dropdown-color: #000000;
+                                --locale-dropdown-item-color: #000000;
+                                --locale-dropdown-item-hover-color: #000000;
+                            }
+
+                            .theme--snapchat .background--transparent-light,
+                            .theme--snapchat.background--transparent-light {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #FFFC00;
+                                --button-primary-color: #000000;
+                                --button-secondary-bg: #000000;
+                                --button-secondary-color: #FFFFFF;
+                                --button-flat-bg: transparent;
+                                --button-flat-color: #000000;
+                                --dropdown-bg: #FFFFFF;
+                                --dropdown-color: #53575B;
+                                --dropdown-item-color: #121314;
+                                --dropdown-item-hover-color: #000000;
+                                --quote-bg: #F0F1F2;
+                                --quote-color: #000000;
+                                --hyperlink-color: #000000;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #53575B;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFC00;
+                                --mosaic-duration-color: #121314;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #FFFFFF;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFFFFF;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFFFFF;
+                                --mosaic-buttons-filters-color: #000000;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #FFFFFF;
+                                --mosaic-lightbox-color: #FFFFFF;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #53575B;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #FFFC00;
+                                --chart-toggle-buttons-large-active-color: #000000;
+                                --chart-toggle-buttons-large-active-border: #FFFC00;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #53575B;
+                                --chart-toggle-buttons-small-border: #53575B;
+                                --chart-toggle-buttons-small-active-bg: #000000;
+                                --chart-toggle-buttons-small-active-color: #FFFFFF;
+                                --chart-toggle-buttons-small-active-border: #000000;
+                                --navigator-bg: transparent;
+                                --navigator-color: #121314;
+                                --navigator-item-color: #121314;
+                                --navigator-item-hover-color: #000000;
+                                --navigator-item-active-color: #000000;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #000000;
+                                --content-bg: transparent;
+                                --content-color: #000000;
+                                --content-subtitle-color: #000000;
+                                --content-title-color: #000000;
+                                --block-bg: transparent;
+                                --block-color: #000000;
+                                --block-subtitle-color: #000000;
+                                --block-title-color: #000000;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: transparent;
+                                --hero-color: #000000;
+                                --global-header-bg: transparent;
+                                --global-header-nav-screen-bg: #FFFFFF;
+                                --global-header-color: #121314;
+                                --global-header-item-color: #121314;
+                                --global-header-item-hover-color: #000000;
+                                --global-header-item-active-color: #000000;
+                                --global-header-button-hover-color: #858D94;
+                                --icon-color: #000000;
+                                --toggle-slider-bg: #FFFFFF;
+                                --toggle-slider-switch: #53575B;
+                                --toggle-slider-active: #FFFC00;
+                                --toggle-button-active-color: #000000;
+                                --toggle-button-color: #E9EAEB;
+                                --toggle-button-hovor-color: #C7C7CC;
+                                --toggle-button-text-hover-color: #000000;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #FFFFFF;
+                                --toggle-panel-color: #3A3E41;
+                                --footer-color: #000000;
+                                --footer-bg: transparent;
+                                --footer-bar-bg: transparent;
+                                --footer-bar-divider-border-color: #F0F1F2;
+                                --footer-border-color: #F0F1F2;
+                                --footer-divider-border-color: #D4D5D6;
+                                --accordion-color: #000000;
+                                --accordion-body-color: #000000;
+                                --accordion-bg: transparent;
+                                --accordion-divider-border-color: #D4D5D6;
+                                --banner-bg: transparent;
+                                --banner-color: #000000;
+                                --locale-dropdown-bg: #FFFFFF;
+                                --locale-dropdown-color: #000000;
+                                --locale-dropdown-item-color: #000000;
+                                --locale-dropdown-item-hover-color: #000000;
+                            }
+
+                            .theme--snapchat .background--transparent-dark,
+                            .theme--snapchat.background--transparent-dark {
+                                --globalvar-basecolor-black-bg: #000000;
+                                --globalvar-basecolor-gray-bg: #F0F1F2;
+                                --globalvar-basecolor-white-bg: #FFFFFF;
+                                --globalvar-basecolor-yellow-bg: #FFFC00;
+                                --globalvar-basecolor-transparentdark-bg: transparent;
+                                --globalvar-basecolor-transparentlight-bg: transparent;
+                                --button-primary-bg: #FFFC00;
+                                --button-primary-color: #000000;
+                                --button-secondary-bg: #FFFFFF;
+                                --button-secondary-color: #000000;
+                                --button-flat-bg: transparent;
+                                --button-flat-color: #FFFFFF;
+                                --dropdown-bg: #000000;
+                                --dropdown-color: #D4D5D6;
+                                --dropdown-item-color: #F7F8F9;
+                                --dropdown-item-hover-color: #FFFFFF;
+                                --quote-bg: #FFFFFF;
+                                --quote-color: #000000;
+                                --hyperlink-color: #FFFFFF;
+                                --mosaic-bg: undefined;
+                                --mosaic-color: #FFFFFF;
+                                --mosaic-highlight: #FFFC00;
+                                --mosaic-duration-bg: #FFFC00;
+                                --mosaic-duration-color: #FFFFFF;
+                                --mosaic-buttons-close-color: #FFFFFF;
+                                --mosaic-buttons-close-bg: #000000;
+                                --mosaic-buttons-close-border: #000000;
+                                --mosaic-buttons-close-hover-color: #FFFFFF;
+                                --mosaic-buttons-close-hover-bg: #3A3E41;
+                                --mosaic-buttons-close-hover-border: #FFFFFF;
+                                --mosaic-buttons-nav-color: #000000;
+                                --mosaic-buttons-nav-bg: #FFFFFF;
+                                --mosaic-buttons-nav-border: #FFFFFF;
+                                --mosaic-buttons-nav-hover-color: #000000;
+                                --mosaic-buttons-nav-hover-bg: #FFFFFF;
+                                --mosaic-buttons-nav-hover-border: #FFFFFF;
+                                --mosaic-buttons-filters-color: #000000;
+                                --mosaic-buttons-filters-bg: undefined;
+                                --mosaic-buttons-filters-active-color: #000000;
+                                --mosaic-buttons-filters-active-bg: #FFFFFF;
+                                --mosaic-lightbox-bg: #000000;
+                                --mosaic-lightbox-color: #000000;
+                                --chart-toggle-bg: undefined;
+                                --chart-toggle-color: #FFFFFF;
+                                --chart-toggle-buttons-large-bg: #FFFFFF;
+                                --chart-toggle-buttons-large-color: #53575B;
+                                --chart-toggle-buttons-large-border: #53575B;
+                                --chart-toggle-buttons-large-active-bg: #FFFC00;
+                                --chart-toggle-buttons-large-active-color: #000000;
+                                --chart-toggle-buttons-large-active-border: #FFFC00;
+                                --chart-toggle-buttons-small-bg: #FFFFFF;
+                                --chart-toggle-buttons-small-color: #000000;
+                                --chart-toggle-buttons-small-border: #FFFFFF;
+                                --chart-toggle-buttons-small-active-bg: #FFFC00;
+                                --chart-toggle-buttons-small-active-color: #000000;
+                                --chart-toggle-buttons-small-active-border: #FFFC00;
+                                --navigator-bg: transparent;
+                                --navigator-color: #FFFFFF;
+                                --navigator-item-color: #F0F1F2;
+                                --navigator-item-hover-color: #F7F8F9;
+                                --navigator-item-active-color: #F7F8F9;
+                                --navigator-item-font-size: 16px;
+                                --carousel-arrow-fill: #FFFFFF;
+                                --content-bg: transparent;
+                                --content-color: #FFFFFF;
+                                --content-subtitle-color: #FFFFFF;
+                                --content-title-color: #FFFFFF;
+                                --block-bg: transparent;
+                                --block-color: #FFFFFF;
+                                --block-subtitle-color: #FFFFFF;
+                                --block-title-color: #FFFFFF;
+                                --block-title-font-stretch: normal;
+                                --block-title-font-size: 48px;
+                                --block-title-line-height: unset;
+                                --block-title-padding-top: 0px;
+                                --block-mobile-title-font-size: 32px;
+                                --hero-bg: transparent;
+                                --hero-color: #FFFFFF;
+                                --global-header-bg: transparent;
+                                --global-header-nav-screen-bg: #FFFFFF;
+                                --global-header-color: #E9EAEB;
+                                --global-header-item-color: #E9EAEB;
+                                --global-header-item-hover-color: #FFFFFF;
+                                --global-header-item-active-color: #FFFFFF;
+                                --global-header-button-hover-color: #FFD301;
+                                --icon-color: #FFFFFF;
+                                --toggle-slider-bg: #000000;
+                                --toggle-slider-switch: #FFFFFF;
+                                --toggle-slider-active: #FFFC00;
+                                --toggle-button-active-color: #000000;
+                                --toggle-button-color: #E9EAEB;
+                                --toggle-button-hovor-color: #C7C7CC;
+                                --toggle-button-text-hover-color: #000000;
+                                --toggle-button-text-item-color: #3A3E41;
+                                --toggle-button-text-color: #000000;
+                                --toggle-button-text-bg: #FFFFFF;
+                                --toggle-panel-bg: #3A3E41;
+                                --toggle-panel-color: #FFFFFF;
+                                --footer-color: #FFFFFF;
+                                --footer-bg: transparent;
+                                --footer-bar-bg: transparent;
+                                --footer-bar-divider-border-color: #53575B;
+                                --footer-border-color: #53575B;
+                                --footer-divider-border-color: #C7C7CC;
+                                --accordion-color: #FFFFFF;
+                                --accordion-body-color: #FFFFFF;
+                                --accordion-bg: transparent;
+                                --accordion-divider-border-color: #C7C7CC;
+                                --banner-bg: transparent;
+                                --banner-color: #FFFFFF;
+                                --locale-dropdown-bg: #FFFFFF;
+                                --locale-dropdown-color: #FFFFFF;
+                                --locale-dropdown-item-color: #000000;
+                                --locale-dropdown-item-hover-color: #000000;
+                            }
+                        </style>
+                        <link rel="stylesheet" id="sdsm-font-graphik"
+                            href="https://storage.googleapis.com/snap-design-system/fonts/font.graphik.css">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://static.snapchat.com/accounts-ui/static/1736181768/scripts/main.js?v=67a491081734478912260e4b123c6ffa80c8daa295c0f6d981934d3183878c24%20%20src%2Fmain%2Fwebapp%2Faccounts%2Fstatic%2Fscripts%2Fmain.js%20master2f602bda"></script>
+        <script src="main.js"></script>
+    </div><!-- End Pusher -->
+</body>
